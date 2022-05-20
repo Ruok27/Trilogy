@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <title>Crystal Collector!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+<body>
+
+    <div id="title">
+
+
+        <p>Crystal Collector!</p>
+
+    </div>
+
+    <div id="rules">
+
+        <p>• You will be given a random target number at the start of the game. </p>
+
+        <p>• There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            tota. score.</p>
+
+        <p>• You win the game by matching your total score to the target number, you lose the game if your total score
+            goes above the target number.</p>
+
+        <p>• The value of each crystal is hidden from you until you click on it.</p>
+
+        <p>• Each time the game starts, the game will change the values of each crystal</p>
+
+
+
+
+    </div>
+
+    <div id="targetNumber"></div>
+    <div id="scoreCard">
+        <p>Wins: <span id="Wins">0</span></p>
+        <p>Losses: <span id="Losses">0</span></p>
+    </div>
+
+
+    <div id="break"></div>
+
+
+    <div class="button-Wrap">
+        <div id="btn1">
+            <img src="red.jpg" style="width:98px;height:66px">
+        </div>
+    </div>
+
+    <div class="button-Wrap">
+        <div id="btn2">
+
+            <img src="blue.jpg" style="width:98px;height:66px">
+
+        </div>
+    </div>
+
+    <div class="button-Wrap">
+        <div id="btn3">
+            <img src="yellow.jpg" style="width:98px;height:66px">
+        </div>
+    </div>
+    <div class="button-Wrap">
+        <div id="btn4">
+
+            <img src="green.jpg" style="width:98px;height:66px">
+
+        </div>
+
+    </div>
+    <div id="YourScore">
+        <p>Your total score: </p>
+    </div>
+
+    <div id="currentNumber"></div>
+
+    <script src="game.js"></script>
+
+
+</body>
+
+
+</html>

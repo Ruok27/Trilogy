@@ -1,0 +1,86 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="jumbotron">
+        <h1 class="display-4">Anytime is Train Time </h1>
+        <p class="lead">Choo Choo. Chee Chee</p>
+        <p class="lead">Feel free to add to the list your own train, a destination, a starting time (in military), and how frequently the train arrives at the station (in minutes).</p>
+        
+
+    </div>
+
+
+
+    <table class="table">
+        <label for="exampleFormControlInput1">Current Train Schedule</label>
+        <thead>
+            <tr>
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency (min)</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+
+
+    <form>
+        <label for="exampleFormControlInput1">Add Train</label>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Train Name</label>
+            <input type="text" class="form-control" id="TrainName">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Destination</label>
+            <input type="text" class="form-control" id="Destination">
+        </div>
+
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">First Train Time (HH:mm - military time)</label>
+            <input type="text" class="form-control" id="Train-Time">
+        </div>
+
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Frequency</label>
+            <input type="number" class="form-control" id="Frequency">
+        </div>
+        <input id="submitButton" type="submit" value="Submit">
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="main.js"></script>
+</body>
+<html>

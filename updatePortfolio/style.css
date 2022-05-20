@@ -1,0 +1,72 @@
+
+
+.img-fluid{
+
+
+float: left;
+
+}
+#wordWrap{
+
+float: right;
+background-color: black;
+color: blanchedalmond;
+
+}
+
+
+#header{
+
+position: fixed;
+
+width: 100%;
+height: 56px;
+}
+
+
+
+.container{
+  float: left;
+  top: 0;
+
+    background: darkgrey;
+    position: relative;
+    margin:25%;
+    
+  background-color: #cccccc;
+
+  margin-bottom: 40%;
+
+    }
+    
+    
+    .col {
+        position: relative;
+        
+    
+      }
+
+      .project1{
+
+
+        font-size: 55%;
+
+      }
+      
+      .text-block {
+        height: auto;
+        width: 105px;
+        position: absolute;
+        background-color: black;
+        color: white;
+        bottom: 30%;
+        font-size: auto;
+        
+      }
+
+     *{
+
+color: blanchedalmond;
+
+
+     }
